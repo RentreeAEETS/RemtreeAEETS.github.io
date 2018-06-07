@@ -1,0 +1,37 @@
+$brand-primary:   #e64614;
+$brand-secondary: #464c62;
+$gray:            #5c5c5c;
+$light:           #a9afc3;
+$body-color:      $gray;
+
+$link-color:      $brand-secondary;
+$link-hover-color: $brand-primary;
+$link-decoration: none;
+$link-hover-decoration: none;
+
+$container-max-widths: (
+	sm: 576px,
+	md: 744px,
+	lg: 1200px,
+	xl: 1130px
+);
+$grid-breakpoints: (
+	// Extra small screen / phone
+	xs: 0,
+	// Small screen / phone
+	sm: 768px,
+	// Medium screen / tablet
+	md: 768px,
+	// Large screen / desktop
+	lg: 1130px,
+	// Extra large screen / wide desktop
+	xl: 1130px
+);
+
+$font-size-root: 16px;
+$line-height: 1.25;
+$font-family-sans-serif: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-2: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$headings-line-height: 1.25;
+$headings-color: $brand-secondary;
